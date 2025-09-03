@@ -50,10 +50,12 @@ uv run provider-list.py test-urls.txt test-output.csv
 
 The utility accepts several optional parameters for customizing the LLM API connection:
 
+Example using with LiteLLM + AWS Bedrock + Claude Sonnet:
+
 ```bash
-uv run provider-list.py provider-urls.txt output.csv \
-  --endpoint http://localhost:11434/v1/chat/completions \
-  --model qwen2.5:3b \
+uv run provider-list.py   provider-test-urls.txt fh-providers-2025-09-03-test7.csv \
+  --endpoint "http://localhost:4000/v1/chat/completions" \
+  --model claude-4-sonnet \
   --api-key sk-1234
 ```
 
