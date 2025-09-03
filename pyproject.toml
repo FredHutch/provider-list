@@ -1,9 +1,10 @@
 [project]
 name = "provider-list"
 version = "0.1.0"
-description = "Build a detailed spreadsheet of Fred Hutch providers from Centernet content"
+description = "A utility that creates a CSV inventory of Fred Hutchinson & UW Medicine medical providers by scraping their profile webpages and extracting structured data using a Large Language Model (LLM)."
 authors = ["Robert McDermott <robert.c.mcdermott@gmail.com>"]
 readme = "README.md"
+license = "Apache 2.0"
 requires-python = ">=3.12"
 dependencies = [
     "requests",
