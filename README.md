@@ -53,7 +53,7 @@ The utility accepts several optional parameters for customizing the LLM API conn
 Example using with LiteLLM + AWS Bedrock + Claude Sonnet:
 
 ```bash
-uv run provider-list.py   provider-urls.txt fh-providers-2025-09-03.csv \
+uv run provider-list.py provider-urls.txt fh-providers-2025-09-03.csv \
   --endpoint "http://localhost:4000/v1/chat/completions" \
   --model claude-4-sonnet \
   --api-key sk-1234
