@@ -1,0 +1,10 @@
+[project]
+name = "provider-list"
+version = "0.1.0"
+description = "Build a detailed spreadsheet of Fred Hutch providers from Centernet content"
+authors = ["Robert McDermott <robert.c.mcdermott@gmail.com>"]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "requests",
+]
